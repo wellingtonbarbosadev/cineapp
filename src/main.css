@@ -10,7 +10,7 @@
   --primary-color: #3b82f6;
   --secondary-color: #10b981;
   --danger-color: #ef4444;
-  --dark-bg: #1f2937;
+  --dark-bg: #0D0C1A;
   --light-bg: #f3f4f6;
   --text-dark: #111827;
   --text-light: #6b7280;
@@ -25,7 +25,7 @@ body {
     "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--light-bg);
+  background-color: var(--dark-bg);
   color: var(--light-bg);
   line-height: 1.6;
 }

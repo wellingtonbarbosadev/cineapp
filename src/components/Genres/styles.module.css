@@ -1,0 +1,39 @@
+.hero {
+  margin-top: 1rem;
+  padding: 1.5rem 1rem;
+
+  color: #aaa;
+
+  button {
+    all: unset
+  }
+
+  ul {
+    display: flex;
+
+    list-style: none;
+    gap: 0.5rem;
+
+    .allGenre {
+      background-color: red;
+      border: 2px solid rgb(255, 121, 121);
+      color: white;
+      font-weight: bolder;
+    }
+
+    li {
+      background-color: #1a1a30;
+      font-size: 0.55rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 1rem;
+      transition: all .5s;
+      border: 2px solid #272747;
+
+      &:hover {
+        cursor: pointer;
+        scale: 1.1;
+
+      }
+    }
+  }
+}
