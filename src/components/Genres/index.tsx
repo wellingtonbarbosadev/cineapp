@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 
 export function Genres() {
   return (
-    <div className={styles.hero}>
+    <div className={styles.genres}>
       <ul>
         <button>
           <li className={styles.allGenre}>Todos</li>
