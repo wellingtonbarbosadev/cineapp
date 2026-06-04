@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0B0A18;
+  height: 55px;
+  padding-inline: 1rem;
+
+  .logo {
+    color: #E51D11;
+    font-size: 1.5rem;
+
+    & + section {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+
+  button {
+    color: #AAA;
+    background-color: transparent;
+  }
+
+  .search {
+    scale: 1.5;
+  }
+}
