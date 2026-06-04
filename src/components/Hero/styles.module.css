@@ -1,7 +1,7 @@
 .hero {
   margin-block: 1rem;
   padding: 1.5rem 1rem;
-  background-color: rgb(92, 26, 130);
+  background: linear-gradient(90deg, rgba(142, 18, 213, 0.18) 0%, rgba(58, 123, 213, 0.12) 50%, rgba(18, 213, 173, 0.08) 100%);
   border-radius: 8px;
 
   strong {

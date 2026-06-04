@@ -1,0 +1,9 @@
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  margin-block: 1rem;
+  padding: 1.5rem 1rem;
+  border-radius: 8px;
+
+  gap: 1rem;
+}

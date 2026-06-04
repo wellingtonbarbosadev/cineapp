@@ -1,14 +1,11 @@
 import styles from "./styles.module.css";
 
-export function Hero() {
+export function Hero(movie: MovieInfo) {
   return (
     <div className={styles.hero}>
       <strong>Em destaque</strong>
-      <h1>Interestelar</h1>
-      <p>
-        Um grupo de astronautas viaja através de uma passagem no espaço-tempo em
-        busca de um novo lar.
-      </p>
+      <h1>{movie.title}</h1>
+      <p>{movie.synopsis}</p>
       <span>Ver Detalhes</span>
     </div>
   );
