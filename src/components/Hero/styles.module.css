@@ -1,0 +1,37 @@
+.hero {
+  margin-top: 1rem;
+  padding: 1.5rem 1rem;
+  background-color: rgb(92, 26, 130);
+  border-radius: 8px;
+
+  strong {
+    color: white;
+    text-transform: uppercase;
+    background-color: red;
+    padding: 0.2rem;
+    border-radius: 4px;
+    font-size: 0.5rem;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    margin-block: .4rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+  }
+
+  span {
+
+    background-color: red;
+    padding: 0.5rem;
+    border-radius: 4px;
+
+    font-weight: bolder;
+    font-size: .75rem;
+  }
+}
