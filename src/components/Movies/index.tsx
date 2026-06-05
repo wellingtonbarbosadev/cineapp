@@ -1,5 +1,4 @@
 import styles from "./styles.module.css";
-import { useNavigate } from "react-router";
 
 export function Movies(movie: MovieInfo) {
   return (
