@@ -21,6 +21,10 @@
     background-color: transparent;
   }
 
+  .active {
+    color: #fff;
+  }
+
   .search {
     scale: 1.5;
   }

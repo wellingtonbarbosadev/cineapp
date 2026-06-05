@@ -1,9 +1,10 @@
 import styles from "./styles.module.css";
+import { useNavigate } from "react-router";
 
 export function Movies(movie: MovieInfo) {
   return (
     <div className={styles.movie}>
-      <a href="#">
+      <a href={`/movie/${movie.id}`}>
         <div>
           <div>{movie.emoji}</div>
           <span>{movie.rating}</span>
